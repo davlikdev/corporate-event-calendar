@@ -1,46 +1,62 @@
-# Getting Started with Create React App
+# React Event Calendar
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Dies ist eine Webanwendung zur Veranstaltungsplanung und Verwaltung eines persönlichen Kalenders. Das Projekt wurde entwickelt, um Fähigkeiten in der Arbeit mit React, strikter Typisierung durch TypeScript und globalem State-Management mit Redux zu demonstrieren.
 
-## Available Scripts
+[Demo ansehen](https://davlikdev.github.io/corporate-event-calendar)
 
-In the project directory, you can run:
+## 📋 Funktionen
 
-### `npm start`
+* **Authentifizierung:** Simulation der Anmeldung mit Validierung von Benutzername und Passwort.
+* **Veranstaltungskalender:** Interaktiver Kalender (basierend auf Ant Design) mit Umschaltmöglichkeit zwischen Monaten und Jahren.
+* **Erstellung von Ereignissen:** Hinzufügen von Terminen an einem bestimmten Datum über ein Modal-Fenster.
+* **Gastzugriff:** Möglichkeit, Gäste zu einem Ereignis einzuladen (das Ereignis wird sowohl im Kalender des Autors als auch des ausgewählten Gastes angezeigt).
+* **Validierung:** Überprüfung von Formularen auf Pflichtfelder und Sperre für die Erstellung von Ereignissen in der Vergangenheit.
+* **Datenspeicherung:** Alle Ereignisse und der Authentifizierungsstatus werden im `localStorage` gespeichert, sodass keine Daten beim Neuladen der Seite verloren gehen.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+## 🛠 Technologien
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+Das Projekt verwendet folgenden Technologie-Stack:
 
-### `npm test`
+* **[React](https://reactjs.org/):** JavaScript-Bibliothek zum Erstellen von Benutzeroberflächen.
+* **[TypeScript](https://www.typescriptlang.org/):** Strenge Typisierung für erhöhte Code-Zuverlässigkeit und Wartbarkeit.
+* **[Redux](https://redux.js.org/):** State-Manager zur Verwaltung des globalen Anwendungszustands (Benutzer, Ereignisse, Fehler).
+* **[Ant Design](https://ant.design/):** UI-Framework für React (vorgefertigte Komponenten: Kalender, Formulare, Modals, Buttons).
+* **[React Router DOM](https://reactrouter.com/):** Routing für die Navigation zwischen Login- und Kalenderseiten.
+* **Moment.js:** Bibliothek für die Arbeit mit Datum und Zeit.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## 🚀 Installation und Start
 
-### `npm run build`
+Befolgen Sie diese Schritte, um das Projekt lokal auszuführen:
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+1.  **Repository klonen:**
+    ```bash
+    git clone [https://github.com/dein-nutzername/repo-name.git](https://github.com/dein-nutzername/repo-name.git)
+    ```
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+2.  **In das Projektverzeichnis wechseln:**
+    ```bash
+    cd repo-name
+    ```
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+3.  **Abhängigkeiten installieren:**
+    ```bash
+    npm install
+    ```
 
-### `npm run eject`
+4.  **Entwicklungsserver starten:**
+    ```bash
+    npm start
+    ```
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+Die Anwendung wird unter `http://localhost:3000` verfügbar sein.
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+## 🔐 Zugangsdaten für Testzwecke
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+Da das Backend im Projekt simuliert wird (Mock-Daten), verwenden Sie bitte folgende Zugangsdaten für den Login (basierend auf der Datei `users.json`):
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
+| Benutzername | Passwort |
+| :--- | :--- |
+| **user** | `123` |
+| **Аксенов Лаврентий Тимурович** | `OcVF4lIU184PLeu` |
+| **Иларион Гаврилович Фадеев** | `2uFkTnblaGWnd4E` |
+| **Гришин Эмиль Иосипович** | `yP5oAJI0xV93xmB` |
