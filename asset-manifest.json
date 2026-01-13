@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/corporate-event-calendar/static/css/main.2cf7c84c.chunk.css",
+    "main.js": "/corporate-event-calendar/static/js/main.6d511897.chunk.js",
+    "main.js.map": "/corporate-event-calendar/static/js/main.6d511897.chunk.js.map",
+    "runtime-main.js": "/corporate-event-calendar/static/js/runtime-main.4c4fe792.js",
+    "runtime-main.js.map": "/corporate-event-calendar/static/js/runtime-main.4c4fe792.js.map",
+    "static/css/2.a9ef530b.chunk.css": "/corporate-event-calendar/static/css/2.a9ef530b.chunk.css",
+    "static/js/2.f976f2ce.chunk.js": "/corporate-event-calendar/static/js/2.f976f2ce.chunk.js",
+    "static/js/2.f976f2ce.chunk.js.map": "/corporate-event-calendar/static/js/2.f976f2ce.chunk.js.map",
+    "index.html": "/corporate-event-calendar/index.html",
+    "static/css/2.a9ef530b.chunk.css.map": "/corporate-event-calendar/static/css/2.a9ef530b.chunk.css.map",
+    "static/css/main.2cf7c84c.chunk.css.map": "/corporate-event-calendar/static/css/main.2cf7c84c.chunk.css.map",
+    "static/js/2.f976f2ce.chunk.js.LICENSE.txt": "/corporate-event-calendar/static/js/2.f976f2ce.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.4c4fe792.js",
+    "static/css/2.a9ef530b.chunk.css",
+    "static/js/2.f976f2ce.chunk.js",
+    "static/css/main.2cf7c84c.chunk.css",
+    "static/js/main.6d511897.chunk.js"
+  ]
+}
